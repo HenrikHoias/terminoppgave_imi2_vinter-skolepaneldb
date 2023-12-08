@@ -1,0 +1,95 @@
+* { /* Standard font */
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.action-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.action-icons a {
+    margin-left: 10px;
+}
+
+nav a.nav-link:hover {
+    color: #FFF;
+    background-color: #40ADC7;
+    padding: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #FFF;
+    padding: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.custom-navbar {
+    background-color: #FFF;
+    color: #01364C;
+}
+
+.custom-navlinks {
+    background-color: #1099B9; /* Header bakgrunn farge */
+    padding: 10px;
+}
+
+img { /* Logo */
+    height: 35px;
+    width: auto;
+}
+
+/* Bakgrunnsfarge for tabellen i absence */
+table.table tr:nth-child(odd) {
+    background-color: #f2f2f8;
+}
+
+table.table tr:nth-child(even) {
+    background-color: #ffffff; /* Dette er bakgrunnsfargen for partallige rader */
+}
+
+.card img.card-img-top {
+    text-align: center;
+    height: auto;
+    background-color: #97D7E1;
+}
+
+.hover { /* Rammeeffekt på index */
+    border: 2px solid #eee;
+    transition: border 0.5s ease;
+  }
+  
+.hover:hover {
+    border: 2px solid #000000;
+}
+  
+a { /* Fjern hyperlink grafikk */
+    color: #000000; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .d-flex.d-lg-flex {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .fas.fa-bars {
+        display: none !important;
+    }
+}

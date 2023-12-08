@@ -1,0 +1,70 @@
+* { /* Standard font */
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.action-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.action-icons a {
+    margin-left: 10px;
+}
+
+nav a.nav-link:hover {
+    color: #1099B9;
+}
+
+.custom-navbar {
+    background-color: #FFF;
+    color: #01364C;
+}
+
+.custom-navlinks {
+    background-color: #EEE;
+    padding: 10px;
+}
+
+img { /* Logo */
+    height: 35px;
+    width: auto;
+}
+
+/* Bakgrunnsfarge for tabellen i absence */
+table.table tr:nth-child(odd) {
+    background-color: #f2f2f8;
+}
+
+table.table tr:nth-child(even) {
+    background-color: #ffffff; /* Dette er bakgrunnsfargen for partallige rader */
+}
+
+.card img.card-img-top {
+    text-align: center;
+    height: auto;
+    background-color: #97D7E1;
+}
+
+.hover { /* Rammeeffekt på index */
+    border: 2px solid #eee;
+    transition: border 0.5s ease;
+  }
+  
+.hover:hover {
+    border: 2px solid #000000;
+}
+  
+a { /* Fjern hyperlink grafikk */
+    color: #000000; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}

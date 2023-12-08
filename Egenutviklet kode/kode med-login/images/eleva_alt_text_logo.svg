@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2228" height="668" viewBox="0 0 2228 668">
+  <defs>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="2228" height="668"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <path id="Path_1" data-name="Path 1" d="M88,0H569V298a88,88,0,0,1-88,88H0V88A88,88,0,0,1,88,0Z" transform="translate(-0.067 380.735) rotate(-42)" fill="#f0f0f0"/>
+    <path id="Path_3" data-name="Path 3" d="M88,0H569V298a88,88,0,0,1-88,88H0V88A88,88,0,0,1,88,0Z" transform="translate(253.933 380.735) rotate(-42)" fill="#dcdcdc"/>
+    <path id="Path_2" data-name="Path 2" d="M88,0H378V127a88,88,0,0,1-88,88H0V88A88,88,0,0,1,88,0Z" transform="translate(256.295 380.009) rotate(-42)" fill="#d5d5d5"/>
+    <text id="Eleva" transform="translate(1603 506.795)" fill="#fff" font-size="500" font-family="ArialMT, Arial"><tspan x="-625.366" y="0">Eleva</tspan></text>
+  </g>
+</svg>
